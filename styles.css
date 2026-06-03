@@ -32,7 +32,7 @@ body {
   align-items: center;
   background:
     linear-gradient(135deg, rgba(10, 79, 112, 0.78), rgba(17, 111, 155, 0.6)),
-    url("/assets/images/header-banner-placeholder.svg") center/cover no-repeat;
+    url("assets/images/header-banner-placeholder.svg") center/cover no-repeat;
   color: #ffffff;
 }
 
