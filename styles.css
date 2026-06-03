@@ -20,6 +20,43 @@ body {
   line-height: 1.6;
 }
 
+.site-nav {
+  background: var(--surface);
+  border-bottom: 1px solid var(--border);
+}
+
+.site-nav__inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  padding: 0.8rem 0;
+}
+
+.site-nav__brand {
+  font-weight: 700;
+  letter-spacing: 0.08em;
+}
+
+.site-nav__toggle {
+  display: none;
+  border: 1px solid var(--border);
+  background: var(--surface);
+  border-radius: 8px;
+  padding: 0.4rem 0.65rem;
+  color: var(--text);
+  font: inherit;
+}
+
+.site-nav__links {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
 .container {
   width: min(1100px, 92vw);
   margin: 0 auto;
@@ -124,6 +161,27 @@ a:hover {
 }
 
 @media (max-width: 640px) {
+  .site-nav__inner {
+    align-items: flex-start;
+    flex-direction: column;
+  }
+
+  .site-nav__toggle {
+    display: inline-block;
+  }
+
+  .site-nav__links {
+    display: none;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.5rem;
+    width: 100%;
+  }
+
+  .site-nav__links.is-open {
+    display: flex;
+  }
+
   .section {
     padding: 3rem 0;
   }

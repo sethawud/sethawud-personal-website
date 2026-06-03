@@ -4,10 +4,10 @@ A responsive static portfolio website for **Sethawud Chaikitgosiyakul** with a m
 
 ## Structure
 
-- `/index.html` — main website content and sections
-- `/styles.css` — visual styling and responsive layout
-- `/script.js` — small behavior enhancements (dynamic footer year)
-- `/assets/images/` — placeholder assets for favicon and header banner
+- `index.html` — main website content and sections
+- `styles.css` — visual styling and responsive layout
+- `script.js` — mobile navigation + dynamic footer year behavior
+- `assets/images/` — placeholder assets for favicon and header banner
 
 ## Deploy with GitHub Pages
 
@@ -19,6 +19,6 @@ A responsive static portfolio website for **Sethawud Chaikitgosiyakul** with a m
 
 ## Placeholder assets
 
-- Favicon placeholder: `/assets/images/favicon-placeholder.svg`
-- Header banner placeholder: `/assets/images/header-banner-placeholder.svg`
+- Favicon placeholder: `assets/images/favicon-placeholder.svg`
+- Header banner placeholder: `assets/images/header-banner-placeholder.svg`
 - Logo placeholder area is rendered in the header section.
