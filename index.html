@@ -1,137 +1,103 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta
       name="description"
-      content="Sethawud Chaikitgosiyakul - Biomedical scientist, molecular genetics specialist, licensed medical technologist, and clinical laboratory strategy consultant."
+      content="Professional portfolio of Sethawud Chaikitgosiyakul, biomedical scientist and clinical laboratory strategy consultant."
     />
-    <title>SETHAWUD | Biomedical Scientist & Lab Strategy Consultant</title>
-    <link rel="icon" type="image/png" href="assets/images/favicon-placeholder.png" />
-    <link rel="stylesheet" href="style.css" />
+    <title>Sethawud Chaikitgosiyakul | Portfolio</title>
+    <link rel="icon" type="image/svg+xml" href="assets/images/favicon-placeholder.svg" />
+    <link rel="stylesheet" href="styles.css" />
   </head>
   <body>
-    <header class="site-header">
-      <nav class="nav container" aria-label="Primary Navigation">
-        <a class="brand" href="#home">
-          <img src="assets/images/logo-placeholder.svg" alt="Sethawud logo placeholder" />
-          <span>SETHAWUD</span>
-        </a>
-        <button class="nav-toggle" aria-expanded="false" aria-controls="nav-links">
-          <span></span><span></span><span></span>
-          <span class="sr-only">Toggle navigation</span>
-        </button>
-        <ul id="nav-links" class="nav-links">
+    <nav class="site-nav" aria-label="Primary">
+      <div class="site-nav__inner container">
+        <a class="site-nav__brand" href="#top">SETHAWUD</a>
+        <button class="site-nav__toggle" type="button" aria-expanded="false" aria-controls="site-menu">Menu</button>
+        <ul class="site-nav__links" id="site-menu">
           <li><a href="#about">About</a></li>
           <li><a href="#expertise">Expertise</a></li>
           <li><a href="#research">Research</a></li>
           <li><a href="#services">Services</a></li>
           <li><a href="#contact">Contact</a></li>
         </ul>
-      </nav>
+      </div>
+    </nav>
+
+    <header class="hero" id="top">
+      <div class="hero__overlay"></div>
+      <div class="hero__content container">
+        <div class="logo-placeholder" aria-label="Logo placeholder">Logo Placeholder</div>
+        <p class="hero__subtitle">Biomedical Scientist · Molecular Genetics Specialist · Clinical Laboratory Strategy Consultant</p>
+        <h1>SETHAWUD</h1>
+        <p class="hero__caption">Header banner image placeholder area</p>
+      </div>
     </header>
 
     <main>
-      <section id="home" class="hero">
-        <img
-          class="hero-banner"
-          src="assets/images/header-banner-placeholder.jpg"
-          alt="Biomedical laboratory header banner placeholder"
-        />
-        <div class="hero-overlay"></div>
-        <div class="hero-content container">
-          <p class="hero-kicker">Biomedical Science • Molecular Genetics • Laboratory Strategy</p>
-          <h1>SETHAWUD</h1>
-          <p>
-            Sethawud Chaikitgosiyakul is a biomedical scientist and licensed medical technologist
-            specializing in molecular diagnostics, clinical laboratory systems, and international
-            quality standards.
-          </p>
-          <a class="button" href="#contact">Let’s Connect</a>
-        </div>
-      </section>
-
-      <section id="about" class="section container">
+      <section class="section container" id="about">
         <h2>About</h2>
         <p>
-          Sethawud Chaikitgosiyakul brings multidisciplinary expertise across biomedical sciences,
-          molecular genetics, and laboratory operations. With a strong foundation in clinical
-          diagnostics and translational science, Sethawud supports laboratories in building
-          high-performance, quality-focused systems that improve patient care and business outcomes.
+          Sethawud Chaikitgosiyakul is a medical technologist, molecular genetics researcher, and
+          clinical laboratory strategy consultant focused on translating biomedical science into
+          high-impact diagnostic and healthcare solutions.
         </p>
       </section>
 
-      <section id="expertise" class="section section-alt">
+      <section class="section section--alt" id="expertise">
         <div class="container">
           <h2>Expertise</h2>
-          <div class="card-grid">
-            <article class="card"><h3>Molecular Diagnostics</h3><p>Clinical assay design, validation, and implementation.</p></article>
-            <article class="card"><h3>qPCR & NGS</h3><p>Advanced workflows for high-sensitivity genomic applications.</p></article>
-            <article class="card"><h3>Genomics</h3><p>Applied genomics for precision medicine and translational research.</p></article>
-            <article class="card"><h3>ISO 15189 & ISO 15190</h3><p>Quality and safety systems aligned with international laboratory standards.</p></article>
-            <article class="card"><h3>LIMS</h3><p>Laboratory information system planning, deployment, and optimization.</p></article>
-            <article class="card"><h3>IVD Regulatory Strategy</h3><p>Regulatory positioning and documentation for in vitro diagnostics.</p></article>
-            <article class="card"><h3>Laboratory Business Development</h3><p>Growth strategy for sustainable and innovation-driven lab services.</p></article>
-          </div>
-        </div>
-      </section>
-
-      <section id="research" class="section container">
-        <h2>Research</h2>
-        <div class="timeline">
-          <article>
-            <h3>Malaria Molecular Genetics</h3>
-            <p>
-              Research focus on parasite biology and host-pathogen interactions to support better
-              diagnostics and therapeutic pathways.
-            </p>
-          </article>
-          <article>
-            <h3>VAR2CSA & Placental Malaria</h3>
-            <p>
-              Investigation of molecular mechanisms linked to placental malaria, including VAR2CSA
-              biology and maternal-fetal health impact.
-            </p>
-          </article>
-          <article>
-            <h3>Biomedical Sciences</h3>
-            <p>
-              Translational biomedical work connecting laboratory evidence to clinical and
-              public-health application.
-            </p>
-          </article>
-        </div>
-      </section>
-
-      <section id="services" class="section section-alt">
-        <div class="container">
-          <h2>Professional Services</h2>
-          <ul class="service-list">
-            <li>Clinical laboratory consulting</li>
-            <li>ISO documentation and quality system readiness</li>
-            <li>Molecular test menu development</li>
-            <li>Thai FDA and IVD regulatory documentation support</li>
-            <li>Strategic business development for laboratory organizations</li>
+          <ul class="tag-list">
+            <li>Molecular Diagnostics</li>
+            <li>Genomics</li>
+            <li>qPCR</li>
+            <li>NGS</li>
+            <li>ISO 15189</li>
+            <li>ISO 15190</li>
+            <li>LIMS</li>
+            <li>IVD Regulatory Strategy</li>
+            <li>Clinical Laboratory Business Development</li>
           </ul>
         </div>
       </section>
 
-      <section id="contact" class="section container">
+      <section class="section container" id="research">
+        <h2>Research</h2>
+        <p>
+          Research focus includes malaria molecular genetics, VAR2CSA biology, placental malaria,
+          and broader biomedical sciences that support precision diagnostics and translational
+          medicine.
+        </p>
+      </section>
+
+      <section class="section section--alt" id="services">
+        <div class="container">
+          <h2>Professional Services</h2>
+          <ul class="service-list">
+            <li>Clinical laboratory consulting</li>
+            <li>ISO documentation and quality system support</li>
+            <li>Molecular test menu development</li>
+            <li>Regulatory documentation and compliance strategy</li>
+            <li>Clinical laboratory business and growth strategy</li>
+          </ul>
+        </div>
+      </section>
+
+      <section class="section container" id="contact">
         <h2>Contact</h2>
-        <p>Open to scientific collaboration, advisory engagements, and strategic laboratory partnerships.</p>
-        <ul class="contact-list">
-          <li>Email: <a href="mailto:your-email@example.com">your-email@example.com</a></li>
-          <li>LinkedIn: <a href="https://www.linkedin.com/in/your-profile" target="_blank" rel="noopener">linkedin.com/in/your-profile</a></li>
-          <li>ResearchGate: <a href="https://www.researchgate.net/profile/your-profile" target="_blank" rel="noopener">researchgate.net/profile/your-profile</a></li>
-        </ul>
+        <p>Email: <a href="mailto:6881044620@student.chula.ac.th">6881044620@student.chula.ac.th</a></p>
+        <p>
+          Professional Links:
+          <a href="https://example.com" aria-label="LinkedIn (placeholder)">LinkedIn</a> ·
+          <a href="https://example.com" aria-label="Research profile (placeholder)">Research Profile</a>
+        </p>
       </section>
     </main>
 
-    <footer class="site-footer">
-      <div class="container">
-        <p>© <span id="year"></span> Sethawud Chaikitgosiyakul. All rights reserved.</p>
-      </div>
+    <footer class="footer">
+      <p>&copy; <span id="current-year"></span> Sethawud Chaikitgosiyakul</p>
     </footer>
 
     <script src="script.js"></script>

@@ -1,21 +1,22 @@
-const navToggle = document.querySelector('.nav-toggle');
-const navLinks = document.querySelector('.nav-links');
+const yearElement = document.getElementById('current-year');
+const navToggleButton = document.querySelector('.site-nav__toggle');
+const navMenu = document.getElementById('site-menu');
 
-if (navToggle && navLinks) {
-  navToggle.addEventListener('click', () => {
-    const isOpen = navLinks.classList.toggle('open');
-    navToggle.setAttribute('aria-expanded', String(isOpen));
-  });
-
-  navLinks.querySelectorAll('a').forEach((link) => {
-    link.addEventListener('click', () => {
-      navLinks.classList.remove('open');
-      navToggle.setAttribute('aria-expanded', 'false');
-    });
-  });
+if (yearElement) {
+  yearElement.textContent = new Date().getFullYear();
 }
 
-const yearNode = document.getElementById('year');
-if (yearNode) {
-  yearNode.textContent = String(new Date().getFullYear());
+if (navToggleButton && navMenu) {
+  navToggleButton.addEventListener('click', () => {
+    const isExpanded = navToggleButton.getAttribute('aria-expanded') === 'true';
+    navToggleButton.setAttribute('aria-expanded', String(!isExpanded));
+    navMenu.classList.toggle('is-open', !isExpanded);
+  });
+
+  navMenu.querySelectorAll('a').forEach((link) => {
+    link.addEventListener('click', () => {
+      navToggleButton.setAttribute('aria-expanded', 'false');
+      navMenu.classList.remove('is-open');
+    });
+  });
 }

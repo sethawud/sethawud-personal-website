@@ -1,41 +1,24 @@
 # Sethawud Personal Portfolio Website
 
-A complete static portfolio website for **Sethawud Chaikitgosiyakul** designed for biomedical science, molecular genetics, and clinical laboratory consulting.
+A responsive static portfolio website for **Sethawud Chaikitgosiyakul** with a modern biomedical/scientific visual style.
 
-## Project Structure
+## Structure
 
-- `index.html` — Main website structure and all portfolio sections
-- `style.css` — Responsive styling and visual identity
-- `script.js` — Mobile navigation and footer year behavior
-- `README.md` — Project overview and deployment notes
+- `index.html` — main website content and sections
+- `styles.css` — visual styling and responsive layout
+- `script.js` — mobile navigation + dynamic footer year behavior
+- `assets/images/` — placeholder assets for favicon and header banner
 
-## Website Sections
+## Deploy with GitHub Pages
 
-1. Hero header with professional scientific branding
-2. About
-3. Expertise
-4. Research
-5. Professional Services
-6. Contact
-
-## Asset Placeholders
-
-Update the following placeholder paths with your real assets:
-
-- Logo: `assets/images/logo-placeholder.svg`
-- Favicon: `assets/images/favicon-placeholder.png`
-- Header banner image: `assets/images/header-banner-placeholder.jpg`
-
-## Local Preview
-
-Open `index.html` directly in your browser.
-
-## GitHub Pages Deployment
-
-1. Push this repository to GitHub.
-2. Go to **Settings → Pages**.
+1. Push to the default branch.
+2. In repository settings, open **Pages**.
 3. Set source to **Deploy from a branch**.
-4. Choose your default branch and `/ (root)`.
-5. Save and wait for deployment.
+4. Select the default branch and `/ (root)` folder.
+5. Save and open the published URL.
 
-Your site will be served as a static page and is ready for lightweight customization.
+## Placeholder assets
+
+- Favicon placeholder: `assets/images/favicon-placeholder.svg`
+- Header banner placeholder: `assets/images/header-banner-placeholder.svg`
+- Logo placeholder area is rendered in the header section.
