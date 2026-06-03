@@ -1,16 +1,41 @@
-# Introduction to GitHub
+# Sethawud Personal Portfolio Website
 
-<img src="https://octodex.github.com/images/Professortocat_v2.png" align="right" height="200px" />
+A complete static portfolio website for **Sethawud Chaikitgosiyakul** designed for biomedical science, molecular genetics, and clinical laboratory consulting.
 
-Hey sethawud!
+## Project Structure
 
-Mona here. I'm done preparing your exercise. Hope you enjoy! 💚
+- `index.html` — Main website structure and all portfolio sections
+- `style.css` — Responsive styling and visual identity
+- `script.js` — Mobile navigation and footer year behavior
+- `README.md` — Project overview and deployment notes
 
-Remember, it's self-paced so feel free to take a break! ☕️
+## Website Sections
 
-[![](https://img.shields.io/badge/Go%20to%20Exercise-%E2%86%92-1f883d?style=for-the-badge&logo=github&labelColor=197935)](https://github.com/sethawud/sethawud-personal-website/issues/2)
+1. Hero header with professional scientific branding
+2. About
+3. Expertise
+4. Research
+5. Professional Services
+6. Contact
 
----
+## Asset Placeholders
 
-&copy; 2025 GitHub &bull; [Code of Conduct](https://www.contributor-covenant.org/version/2/1/code_of_conduct/code_of_conduct.md) &bull; [MIT License](https://gh.io/mit)
+Update the following placeholder paths with your real assets:
 
+- Logo: `assets/images/logo-placeholder.svg`
+- Favicon: `assets/images/favicon-placeholder.png`
+- Header banner image: `assets/images/header-banner-placeholder.jpg`
+
+## Local Preview
+
+Open `index.html` directly in your browser.
+
+## GitHub Pages Deployment
+
+1. Push this repository to GitHub.
+2. Go to **Settings → Pages**.
+3. Set source to **Deploy from a branch**.
+4. Choose your default branch and `/ (root)`.
+5. Save and wait for deployment.
+
+Your site will be served as a static page and is ready for lightweight customization.
